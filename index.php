@@ -172,7 +172,7 @@ if (isset($_POST['submit'])) {
 //     }
 // }
 
-?>
+
 
 
 <!-- <form method="post" action="phpQS.php?Cleanup&containerName=<?php echo $containerName; ?>">
@@ -279,3 +279,4 @@ Image to analyze:
 </div> -->
 </body>
 </html>
+?>

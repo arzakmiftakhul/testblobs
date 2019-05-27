@@ -173,11 +173,11 @@ if (isset($_POST['submit'])) {
 // }
 
 
+?>
 
-
-<!-- <form method="post" action="phpQS.php?Cleanup&containerName=<?php echo $containerName; ?>">
-    <button type="submit">Press to clean up all resources created by this sample</button>
-</form> -->
+<!-- <form method="post" action="phpQS.php?Cleanup&containerName=<?php// echo $containerName; ?>"-->
+    <!-- <button type="submit">Press to clean up all resources created by this sample</button> -->
+<!-- </form> --> -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -279,4 +279,3 @@ Image to analyze:
 </div> -->
 </body>
 </html>
-?>

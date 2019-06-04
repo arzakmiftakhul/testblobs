@@ -71,12 +71,12 @@ if (isset($_POST["submit"])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Analyze Sample</title>
+    <title>Analyze Image</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 </head>
 <body>
     <form action="index.php" method="post" enctype="multipart/form-data">
-    Select image to upload:
+    Select image to analyze:
     <input type="file" name="resFile" id="resFile" value=""/>
     <input type="submit" value="Upload Image" name="submit" data-inline="true" />
 </form>
